@@ -1,0 +1,14 @@
+/Users/nasermasri/Projects/CLeren/CLeren/bin/Debug/netcoreapp3.1/CLeren
+/Users/nasermasri/Projects/CLeren/CLeren/bin/Debug/netcoreapp3.1/CLeren.deps.json
+/Users/nasermasri/Projects/CLeren/CLeren/bin/Debug/netcoreapp3.1/CLeren.runtimeconfig.json
+/Users/nasermasri/Projects/CLeren/CLeren/bin/Debug/netcoreapp3.1/CLeren.runtimeconfig.dev.json
+/Users/nasermasri/Projects/CLeren/CLeren/bin/Debug/netcoreapp3.1/CLeren.dll
+/Users/nasermasri/Projects/CLeren/CLeren/bin/Debug/netcoreapp3.1/CLeren.pdb
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.csproj.AssemblyReference.cache
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.AssemblyInfoInputs.cache
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.AssemblyInfo.cs
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.csproj.CoreCompileInputs.cache
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.dll
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.pdb
+/Users/nasermasri/Projects/CLeren/CLeren/obj/Debug/netcoreapp3.1/CLeren.genruntimeconfig.cache
