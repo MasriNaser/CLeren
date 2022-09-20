@@ -6,20 +6,8 @@ namespace CLeren
     {
         static void Main(string[] args)
         {
-            // set app vars
-            string appName = "Lerning C#";
-            string appVersion = "1.0.0";
-            string appAuthor = "Naser Masri";
-            //change color
-            Console.ForegroundColor = ConsoleColor.Green;
-            //app ino
-            Console.WriteLine("{0}: Versioon {1} by {2}", appName, appVersion, appAuthor);
-            //reset color
-            Console.ResetColor();
-            //user name
-            Console.WriteLine("Your name?");
-            string input = Console.ReadLine();
-            Console.WriteLine("Hey {0}, your welcome!", input);
+            GetApp(); //appIn
+            Greating();
             while (true)
             {
                 // init correct number
@@ -38,24 +26,17 @@ namespace CLeren
                     //its a number?
                     if (!int.TryParse(enter, out guess))
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("please enter a number a number");
-                        Console.ResetColor();
+                        PrintColorMessage(ConsoleColor.Red, "Please use a number");
                         continue;
-
                     }
                     guess = Int32.Parse(enter);
                     if (guess != correctNumber)
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Wrong number, try again!");
-                        Console.ResetColor();
+                        PrintColorMessage(ConsoleColor.Red, "Wrong number:(");
                     }
 
                 }
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("its correct");
-                Console.ResetColor();
+                PrintColorMessage(ConsoleColor.Yellow, "Its Correct!");
                 //play again?
                 Console.WriteLine("Play again? [Y or N]");
                 string answer = Console.ReadLine().ToUpper();
@@ -63,7 +44,7 @@ namespace CLeren
                 {
                     continue;
                 }
-                else if(answer == "N")
+                else if (answer == "N")
                 {
                     return;
                 }
@@ -72,6 +53,33 @@ namespace CLeren
                     return;
                 }
             }
+        }
+        static void GetApp()
+        {
+            // set app vars
+            string appName = "Lerning C#";
+            string appVersion = "1.0.0";
+            string appAuthor = "Naser Masri";
+            //change color
+            Console.ForegroundColor = ConsoleColor.Green;
+            //app ino
+            Console.WriteLine("{0}: Versioon {1} by {2}", appName, appVersion, appAuthor);
+            //reset color
+            Console.ResetColor();
+        }
+        static void Greating()
+        {
+            //user name
+            Console.WriteLine("Your name?");
+            string input = Console.ReadLine();
+            Console.WriteLine("Hey {0}, your welcome!", input);
+        }
+        static void PrintColorMessage(ConsoleColor color, string message)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine(message);
+            Console.ResetColor();
+
         }
     }
 }
